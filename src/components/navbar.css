@@ -1,0 +1,52 @@
+.nav-bar {
+  display: flex;
+  background-color: #411530;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.25rem;
+  padding: 0.875rem 4rem;
+}
+.nav-logo {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fff;
+}
+.nav-link-group {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.nav-link svg {
+  width: 32px;
+  height: 32px;
+}
+.shopping-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-btn-group button {
+  color: #411530;
+  background-color: #fff;
+  width: 7rem;
+  height: 2.57rem;
+  border-radius: 0.5rem;
+  border: 0;
+  font-weight: 600;
+  font-size: 1rem;
+}

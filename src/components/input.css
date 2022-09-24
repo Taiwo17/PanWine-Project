@@ -1,0 +1,55 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-one,
+.input-section-two {
+  display: flex;
+  align-items: center;
+  width: 30.313rem;
+  height: 60px;
+  margin-top: 81px;
+}
+.input-one > input {
+  width: 90%;
+  height: 3.75rem;
+  border-radius: 0.75rem 0 0 0.75rem;
+}
+
+.input-one > input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  color: #411530;
+  opacity: 0.6;
+  /* padding-left: 34.24px; */
+}
+
+input:focus {
+  outline: none;
+}
+
+.input-section-two > input {
+  width: 90%;
+  height: 3.75rem;
+  border-radius: 0.75rem 0 0 0.75rem;
+}
+.input-container .input-one > button {
+  height: 3.75rem;
+  border-radius: 0 0.75rem 0.75rem 0;
+  border: none;
+  color: white;
+  background-color: #411530;
+  padding: 20px;
+  cursor: pointer;
+}
+.input-container .input-section-two > button {
+  height: 3.75rem;
+  border-radius: 0 0.75rem 0.75rem 0;
+  border: none;
+  color: white;
+  background-color: #411530;
+  padding: 20px;
+  cursor: pointer;
+}

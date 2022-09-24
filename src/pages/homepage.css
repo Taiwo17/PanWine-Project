@@ -1,0 +1,151 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 41.25rem;
+  background-image: url('../../public/images/headerImage.png');
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.title-caption {
+  width: 50%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  align-self: center;
+  margin-top: 5.5rem;
+}
+
+.caption {
+  width: 50%;
+  color: #fff;
+  align-self: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 2.75rem;
+}
+
+.header > button {
+  color: #fff;
+  width: 350px;
+  /* height: 100px; */
+  background: #411530;
+  border-radius: 12px;
+  border: none;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 2rem 4rem;
+  margin-top: 5.25rem;
+}
+
+.section {
+  padding: 0 4rem 0 4rem;
+}
+.title-product {
+  font-weight: 600;
+  font-size: 32px;
+  color: #411530;
+  margin: 86px 0 40px 0;
+}
+
+.view-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more {
+  font-weight: 600;
+  font-size: 32px;
+  /* text-decoration-line: underline; */
+  /* border: 1px solid rgba(65, 21, 48, 0.6); */
+  list-style: none;
+  color: rgba(65, 21, 48, 0.6);
+  margin-top: 102px;
+}
+.more > span {
+  margin-left: 10px;
+  width: 16px;
+  height: 8px;
+  transform: rotate(-90deg);
+}
+/*  */
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5c7a9;
+  opacity: 0.9;
+  height: 21.25rem;
+  margin-top: 8rem;
+}
+.footer-title {
+  padding-left: 72px;
+  width: 50%;
+}
+.footer-heading {
+  font-weight: 700;
+  font-size: 48px;
+  color: #411530;
+  margin: 23px 0 32px 0;
+}
+.text-content {
+  font-weight: 500;
+  font-size: 40px;
+  color: #411530;
+  width: 70%;
+}
+.footer-section-two {
+  width: 50%;
+}
+
+.footer-section-container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 32px 0 0 0;
+}
+.homepage,
+.contact-us-footer {
+  margin: 23px 0 0 0;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #411530;
+  margin-bottom: 0.5rem;
+}
+.homepage-text,
+.contact-us {
+  font-weight: 400;
+  font-size: 16px;
+  color: #411530;
+  margin-bottom: 0.5rem;
+}
+
+.footer-btn {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-btn > button {
+  height: 70px;
+  color: #fff;
+  width: 80%;
+  background-color: #411530;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.75rem;
+  margin-top: 45px;
+  padding: 20px;
+  align-content: center;
+}
